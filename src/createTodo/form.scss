@@ -1,0 +1,16 @@
+// Ce fichier scss est spécifique au formulaire
+
+@use "../assets/styles/styles.scss";
+
+form {
+	margin-top: 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	.input {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

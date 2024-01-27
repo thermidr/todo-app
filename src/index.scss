@@ -1,0 +1,44 @@
+// Ce fichier scss est spécifique à la liste de todos
+@use "../assets/styles/styles.scss";
+
+// Le code scss pour l'affichage de la liste des users
+.users {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 24px;
+	.user {
+		margin-top: 48px;
+		display: flex;
+		flex-direction: column;
+		border: solid 4px var(--primary);
+	}
+	.user-infos {
+		padding: 16px;
+		font-size: 20px;
+		font-weight: 600;
+		text-align: center;
+		border-bottom: solid 1px var(--primary);
+	}
+	.todo {
+		padding: 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: solid 1px var(--primary);
+		.todo-buttons {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			button {
+				width: 96px;
+				flex-shrink: 0;
+				height: 36px;
+			}
+			.delete-button {
+				font-weight: 800;
+				color: var(--red-1);
+				cursor: pointer;
+			}
+		}
+	}
+}

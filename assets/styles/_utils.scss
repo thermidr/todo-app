@@ -1,0 +1,98 @@
+.p-5 {
+	padding: 5px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
+.p-30 {
+	padding: 30px;
+}
+
+.m-5 {
+	margin: 5px;
+}
+
+.mr-5 {
+	margin-right: 5px;
+}
+
+.m-10 {
+	margin: 10px;
+}
+
+.mr-15 {
+	margin-right: 15px;
+}
+
+.m-20 {
+	margin: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.my-30 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	width: 100%;
+}
+
+.calc {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.not-display {
+	display: none !important;
+}
+
+.result {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-weight: 800;
+}
+
+.ok {
+	color: green;
+}
+.not-ok {
+	color: red;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 48px;
+	height: 48px;
+	border: 5px solid #fff;
+	border-bottom-color: #ff3d00;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
